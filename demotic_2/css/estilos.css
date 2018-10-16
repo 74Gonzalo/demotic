@@ -1,0 +1,223 @@
+/*Celulares  */
+h1, h2 {
+  color: black;
+}
+
+h1 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'Lobster', cursive;
+}
+
+#tutorial{
+  display: none;
+}
+
+textarea{
+  width: 100%,
+}
+
+li{
+  text-decoration: none;
+}
+
+#mensaje{
+  background-color: red;
+  color: white;
+}
+#nav{
+  background-color: white;
+  border-color: white;
+}
+
+#button{
+  width: 100%;
+  background-color: white;
+
+}
+
+#titulo {
+  display: none;
+}
+
+#titulop {
+  display: none;
+  font-size: 1em;
+}
+
+#titulo2 {
+  font-size: 2em;
+}
+
+
+#t-area{
+  width: 100%;
+}
+
+#fotos_n{
+  float: left;
+  clear:none;
+}
+
+#text{
+  text-align:
+
+}
+#mensaje_send{
+  color: white;
+  background-color: red;
+}
+#header{
+  background-color:white;
+}
+
+#ah5{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'Lobster', cursive;color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+font-size: 0.5em;
+}
+
+#ah1 {
+  text-decoration: none;
+  color: black;
+}
+
+#ah1-p {
+  font-size: 0.9em;
+}
+
+
+#ah2{
+  text-decoration: none;
+  color: black
+}
+
+.kids_shoes{
+  width: 90%;
+  margin-left: 10%;
+}
+
+
+/* Por si un día agrego un link a facebook */
+/* #fb {
+display: block;
+position: fixed;
+bottom: 45px;
+left: 0;
+} */
+
+#text-h2{
+  font-size: 1em;
+}
+
+#text-p{
+  font-size: 0.7em;
+}
+
+/* tablets */
+@media (min-width:640px){
+
+  #nav{
+    width: auto;
+  }
+
+#ah1{
+  display: none;
+}
+
+
+#ah1-p{
+  display: none;
+}
+  #button{
+    width: auto;
+  }
+
+  #titulo{
+  display: block;
+  text-decoration: none;
+  color: black;
+  }
+
+  #titulop {
+    display: block;
+
+  }
+
+#desaparicion{
+  display: none;
+}
+
+#text-h2{
+  font-size: 1.5em;
+}
+
+#text-p{
+  font-size: 1.5em;
+}
+
+footer{
+font-size: 0.7em;
+}
+}
+/* compus */
+@media (min-width:1000px){
+
+footer{
+font-size: 1em;
+}
+
+#titulo{
+display: block;
+text-decoration: none;
+color: black;
+}
+
+#titulop {
+  display: block;
+
+}
+
+#ah1{
+  display: none;
+}
+
+
+#ah1-p{
+  display: none;
+}
+
+  #button{
+    width: auto;
+  }
+
+  #nav{
+    width: auto;
+  }
+
+  #desaparicion{
+    display: none;
+  }
+
+#ah5{
+  display: none;
+}
+
+#text-h2{
+  font-size: 2.5em;
+}
+#text-p{
+  font-size: 1em;
+}
+}
